@@ -1,0 +1,20 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: #FFEA4D;
+}
+
+h1 {
+	color: #1F16FF;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+a {
+	color: #FFEA4D;
+}
