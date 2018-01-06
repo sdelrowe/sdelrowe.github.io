@@ -75,3 +75,9 @@ a {
 	color: #FFEA4D;
 	font-family: 'Dosis', sans-serif;
 }
+
+#wrapper {
+	width: 1080px;
+	margin: 0 auto;
+}
+
