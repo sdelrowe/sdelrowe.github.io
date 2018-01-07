@@ -13,6 +13,7 @@ body {
 	color: #000;
 	background-color: #808080;
 	font-size: 16px;
+	padding: 20px;
 }
 
 p {
@@ -39,6 +40,7 @@ h3 {
 
 ul {
 	font-size: 1em;
+	font-family: 'Dosis', sans-serif;
 	color: #fff;
 }
 
@@ -61,17 +63,17 @@ a {
 	font-family: 'Roboto', sans-serif;
 }
 
-.magazine {
+#magazine {
 	color: #FFEA4D;
 	font-family: 'Dosis', sans-serif;
 }
 
-.news {
+#news {
 	color: #FFEA4D;
 	font-family: 'Dosis', sans-serif;
 }
 
-.blog {
+#blog {
 	color: #FFEA4D;
 	font-family: 'Dosis', sans-serif;
 }
@@ -79,5 +81,29 @@ a {
 #wrapper {
 	width: 1080px;
 	margin: 0 auto;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
 
