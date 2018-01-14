@@ -9,6 +9,7 @@
 	box-sizing: border-box;
 }
 
+/*
 body {
 	color: #000;
 	background-color: #808080;
@@ -61,6 +62,10 @@ a {
 .navlinks {
 	color: #FFEA4D;
 	font-family: 'Roboto', sans-serif;
+	display: block;
+	width: 20%;
+	float: left;
+	text-align: center;
 }
 
 #magazine {
@@ -79,11 +84,20 @@ a {
 }
 
 #wrapper {
-	width: 1080px;
+	width: 100%;
+	max-width: 1080px;
 	margin: 0 auto;
 }
 
-header {
+.clearfix:after {
+content: "";
+display: block;
+clear: both;
+
+}
+*/
+
+/*header {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
@@ -105,5 +119,5 @@ footer {
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
-}
+}*/
 
