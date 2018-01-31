@@ -4,6 +4,7 @@
 		<title>destinationCRM</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -12,14 +13,15 @@
 				<h1 id="title">destinationCRM</h1>
 				<h2 id="slogan">The latest from the editors of CRM magazine</h2>
 				</div>
+				<button id="menu_button">Menu</button>
 			</header>	
 			<nav class="clearfix">
-				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="magazine.html">Magazine</a>
-				<a href="news.html">News</a>
-				<a href="blog.html">Blog</a>
-				<a href="contact.html">Contact</a>
+				<a class="button" href="index.html">Home</a>
+				<a class="button" href="about.html">About</a>
+				<a class="button" href="magazine.html">Magazine</a>
+				<a class="button" href="news.html">News</a>
+				<a class="button" href="blog.html">Blog</a>
+				<a class="button" href="contact.html">Contact</a>
 			</nav>
 			<main>
 					<article id="magazine">
@@ -66,5 +68,14 @@
 				</div>
 			</footer>
 		</div>
+		<script>
+		// A $( document ).ready() block.
+		$( document ).ready(function() {
+		    console.log( "ready!" );
+		    $( "#menu_button" ).click(function() {
+			  $("nav").slideToggle();
+			});
+		});
+		</script>
 	</body>
 </html>

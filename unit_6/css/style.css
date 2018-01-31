@@ -108,10 +108,9 @@ nav a:active{
 	font-family: 'Dosis', sans-serif;
 	padding: 20px;
 	float: left;
-	width: 45%;
+	width: 50%;
 	color: #fff;
 	background-color: #000;
-	margin: 20px;
 }
 
 #news_pic {
@@ -123,10 +122,9 @@ nav a:active{
 	font-family: 'Dosis', sans-serif;
 	padding: 20px;
 	float: right;
-	width: 45%;
+	width: 50%;
 	color: #fff;
 	background-color: #000;
-	margin: 20px;
 }
 
 #blog_pic {
