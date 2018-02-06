@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>destinationCRM</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<div class="inner">
+				<h1 id="title">destinationCRM</h1>
+				<h2 id="slogan">The latest from the editors of CRM magazine</h2>
+				</div>
+				<button class="button" id="menu_button">Menu</button>
+			</header>	
+			<nav class="clearfix" id="button_container">
+				<a class="button" href="index.html">Home</a>
+				<a class="button" href="about.html">About</a>
+				<a class="button" href="magazine.html">Magazine</a>
+				<a class="button" href="news.html">News</a>
+				<a class="button" href="blog.html">Blog</a>
+				<a class="button" href="contact.html">Contact</a>
+			</nav>
+			<main>
+					<article id="magazine">
+						<div id="magazine_text">
+							<h3>Seeing the Realities of Augmented Reality</h3>
+							<p>The technology is fast approaching, but marketers need to get up to speed before diving in.	</p>
+						</div>
+						<div id="magazine_mask"></div>
+						<img src="images/augmentedreality.jpg" alt="light tunnel" title="augmented reality">
+					</article>
+				<section id="two_column" class="clearfix">
+					<article class="column">
+						<div class="inner">
+						<h3>Latest News</h3>
+						<img src="images/news.jpg" alt="textured wall" title="textured wall">
+						<ul>
+							<li>Brainshark Announces Enhancements to Its Coaching Platform</li>
+							<li>Sprinklr Announces New Advertising Cloud Solutions</li>
+							<li>Verint Acquires Next IT</li>
+						</ul>
+						</div>
+					</article>
+					<article class="column">
+						<div class="inner">
+						<h3>Blog</h3>
+						<img src="images/blog.jpg" alt="iPad and iPhone" title="devices">
+						<ul>
+							<li>Marketers Struggling with Personalization, Study Finds</li>
+							<li>Consumers Interested in Purchasing Products Directly Through Their TVs, Study Finds</li>
+							<li>Organizations Will Take Drastic Measures to Ensure GDPR Compliance, Study Finds</li>
+						</ul>
+						</div>
+					</article>
+				</section>
+			</main>
+			<footer>
+				<div class="inner">
+				<p>destinationCRM serves leaders engaged in the development of customer-centric business initiatives.</p>
+				<ul>
+					<li>digital access to CRM magazine</li>
+					<li>industry news covered by our editors</li>
+					<li>blog posts from our editors</li>
+				</ul>
+				</div>
+			</footer>
+		</div>
+		<script>
+		// A $( document ).ready() block.
+		$( document ).ready(function() {
+		    console.log( "ready!" );
+		    $( "#menu_button" ).click(function() {
+			  $("nav").slideToggle();
+			});
+		});
+		</script>
+	</body>
+</html>
